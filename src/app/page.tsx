@@ -25,30 +25,7 @@ const projects = [
     image: '/api/placeholder/400/250',
     category: 'Print'
   },
-  {
-    title: 'Website Redesign',
-    description: 'Complete website redesign focusing on user experience, visual hierarchy, and modern design principles for an e-commerce platform.',
-    tags: ['Web Design', 'UI/UX', 'Responsive Design', 'Adobe XD'],
-    link: '#',
-    image: '/api/placeholder/400/250',
-    category: 'Web Design'
-  },
-  {
-    title: 'Social Media Graphics',
-    description: 'Creative social media content including Instagram posts, stories, and promotional graphics maintaining brand consistency.',
-    tags: ['Social Media', 'Adobe Photoshop', 'Content Creation', 'Branding'],
-    link: '#',
-    image: '/api/placeholder/400/250',
-    category: 'Digital'
-  },
-  {
-    title: 'Packaging Design',
-    description: 'Product packaging design for organic skincare products featuring eco-friendly aesthetics and sustainable design principles.',
-    tags: ['Packaging', 'Product Design', 'Adobe Illustrator', 'Sustainability'],
-    link: '#',
-    image: '/api/placeholder/400/250',
-    category: 'Packaging'
-  },
+  
 ];
 
 const skills = [
@@ -147,7 +124,7 @@ export default function Home() {
                 Bringing Ideas to Life Through Design
               </h3>
               <p className="text-text-secondary mb-6 leading-relaxed">
-                I'm a passionate Graphics Designer with over 5 years of experience creating compelling visual solutions. 
+                I'm a passionate Graphics Designer with over 2 years of experience creating compelling visual solutions. 
                 I specialize in brand identity, UI/UX design, and print media to help businesses communicate their message effectively.
               </p>
               <p className="text-text-secondary mb-6 leading-relaxed">
@@ -161,15 +138,15 @@ export default function Home() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-primary rounded-full"></div>
-                  <span className="text-text-secondary">5+ Years Experience</span>
+                  <span className="text-text-secondary">2+ Years Experience</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-secondary rounded-full"></div>
-                  <span className="text-text-secondary">100+ Projects Completed</span>
+                  <span className="text-text-secondary">20+ Projects Completed</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-accent rounded-full"></div>
-                  <span className="text-text-secondary">50+ Happy Clients</span>
+                  <span className="text-text-secondary">10+ Happy Clients</span>
                 </div>
               </div>
             </div>
@@ -291,7 +268,7 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
-                  <a 
+                  {/* <a 
                     href={project.link} 
                     className="inline-flex items-center text-primary hover:text-secondary transition-colors font-semibold group-hover:translate-x-1 transform transition-transform duration-300"
                     target="_blank"
@@ -301,7 +278,7 @@ export default function Home() {
                     <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             ))}
@@ -320,7 +297,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
             <a 
-              href="mailto:addis.designer@example.com" 
+              href="mailto:addisalemnegash333@gmail.com" 
               className="bg-white text-primary px-8 py-4 rounded-full font-semibold inline-flex items-center justify-center hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -329,31 +306,26 @@ export default function Home() {
               Get In Touch
             </a>
             <a 
-              href="https://dribbble.com/addis" 
+              href="https://t.me/Addis333" 
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold inline-flex items-center justify-center hover:bg-white hover:text-primary transition-all duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
               <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zm7.568 5.302c1.4 1.5 2.252 3.5 2.273 5.698-.653-.126-7.512-1.538-7.512-1.538s-.669-1.417-1.479-3.193c3.193-1.256 6.718.033 6.718.033zm-13.11.645c0 0 3.51-1.314 6.643-.069-.810 1.775-1.47 3.156-1.47 3.156s-6.934 1.417-7.512 1.538c-.021-2.2.339-4.625.339-4.625zm-.645 6.136s6.934-1.417 7.512-1.538c.810 1.775 1.47 3.156 1.47 3.156s-3.51 1.314-6.643.069c-1.4-1.5-2.252-3.5-2.273-5.698zm13.755 1.032c-.653.126-7.512 1.538-7.512 1.538s.669 1.417 1.479 3.193c-3.193 1.256-6.718-.033-6.718-.033-1.4-1.5-2.252-3.5-2.273-5.698z"/>
+                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
               </svg>
-              Dribbble
+              Telegram
             </a>
           </div>
           
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
-            <a href="https://behance.net/addis" className="text-white/80 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M6.938 4.503c.702 0 1.34.06 1.92.188.577.13 1.07.33 1.485.61.41.28.733.65.96 1.12.225.47.34 1.05.34 1.73 0 .74-.17 1.36-.507 1.86-.338.5-.837.9-1.502 1.22.906.26 1.576.72 2.022 1.37.448.66.665 1.45.665 2.36 0 .75-.13 1.39-.41 1.93-.28.55-.67 1-1.16 1.35-.48.348-1.05.6-1.67.76-.62.16-1.25.24-1.89.24H0V4.51h6.938v-.007zM3.495 8.22h2.88c.8 0 1.43-.17 1.87-.53.44-.36.66-.85.66-1.48 0-.3-.04-.56-.13-.79-.09-.23-.21-.42-.38-.57-.17-.15-.37-.26-.61-.35-.24-.09-.5-.13-.78-.13H3.495V8.22zm0 7.12h3.36c.33 0 .65-.04.95-.12.3-.08.56-.2.78-.38.22-.18.39-.4.52-.67.13-.27.2-.58.2-.92 0-.75-.22-1.3-.64-1.64-.42-.35-1.02-.53-1.79-.53H3.495v4.26zm13.72-11.13c.7 0 1.33.12 1.88.37.56.25 1.03.59 1.42 1.03.39.44.69.95.89 1.53.2.58.3 1.2.3 1.85 0 .65-.1 1.27-.3 1.85-.2.58-.5 1.09-.89 1.53-.39.44-.86.78-1.42 1.03-.55.25-1.18.37-1.88.37s-1.33-.12-1.88-.37c-.56-.25-1.03-.59-1.42-1.03-.39-.44-.69-.95-.89-1.53-.2-.58-.3-1.2-.3-1.85 0-.65.1-1.27.3-1.85.2-.58.5-1.09.89-1.53.39-.44.86-.78 1.42-1.03.55-.25 1.18-.37 1.88-.37zm0 1.49c-.51 0-.93.18-1.27.55-.34.37-.51.87-.51 1.5 0 .63.17 1.13.51 1.5.34.37.76.55 1.27.55s.93-.18 1.27-.55c.34-.37.51-.87.51-1.5 0-.63-.17-1.13-.51-1.5-.34-.37-.76-.55-1.27-.55z"/>
-              </svg>
-            </a>
-            <a href="https://instagram.com/addis.design" className="text-white/80 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/7addis?igsh=NTc4MTIwNjQ2YQ==" className="text-white/80 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
               </svg>
             </a>
-            <a href="https://linkedin.com/in/addis-designer" className="text-white/80 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/addisalem-negash-334898325" className="text-white/80 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
